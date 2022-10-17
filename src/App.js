@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+// css files
+
+// imported components
+import SideBar from "./components/sidebar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="main">
+        <SideBar />
+         
+        <div className="container">
+          <h1>HELLO WORLD</h1>
+          <p>
+            How do I create a side navigation bar in React JS? In React, this is
+            how you import your css files.
+          </p>
+          <p>
+            So locate App. css in src directory, delete everything and add the
+            styles above to a class of sidenav except width and padding-top. We
+            would use inline styling for this.
+          </p>
+
+          <button>EXPLORE</button>
+        </div>
+      </div>
+    </>
   );
 }
 

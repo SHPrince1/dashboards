@@ -1,0 +1,18 @@
+.sidebarItems{
+    background-color:#fff;
+    
+    
+}
+.sidebarC{
+    background-color:#000;
+    display:flex;
+    justify-content:space-evenly;
+    
+}
+
+.sidebarC p{
+   font-size: 20px;
+    
+}
+
+
