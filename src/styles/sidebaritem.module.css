@@ -64,24 +64,53 @@
 
 /* new   */
 
-
+.parentBox{
+    /* background-color: orange; */
+    width: 100%;
+   /* margin: 0 auto; */
+    
+    
+}
+.genBox{
+    width: 100%;
+    margin-right: 3rem;
+    display: flex;
+    flex-direction: column;
+}
 .genTitle{
     border: 1px solid #fff;
+    background-color: green;
     display: flex;
-    padding: 10px 20px;
-    height: 45px;
-    justify-content: space-evenly;
+    padding: 15px 10px;
+    height: 55px;
+    justify-content:space-evenly ;
     cursor: pointer;
+    width:70%;
+    margin-top:25px;
+    margin-left: 2rem;
+    border-radius: 15px;
+   
+}
+
+.genTitle:hover{
+    background-color: rgba(10, 173, 10, 0.664)
 
 }
+
+
+
+
 
 
 .contents{
     display:block;
     justify-content:center;
-    padding: 10px 50px;
-    border: 2px solid #fff;
-    background-color: red;
+    padding: 20px 40px;
+    /* border: 2px solid #fff; */
+    /* background-color: red; */
+    width: 70%;
+    margin-left: 2rem;
+    margin-top:10px;
 }
 .hide{
     display: none;
