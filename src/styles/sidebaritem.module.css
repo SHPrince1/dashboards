@@ -1,18 +1,88 @@
 .sidebarItems{
-    background-color:#fff;
-    
-    
-}
-.sidebarC{
     background-color:#000;
+    padding:5px;
+   
+    
+    
+}
+.sidebarItems :hover{
+    background-color:#444;
+   
+    
+} 
+
+
+.sidebarTitle{
+    background-color:#000;
+    /* padding:10px; */
     display:flex;
-    justify-content:space-evenly;
+    justify-content:space-between;
+    cursor: pointer;
+    
+}
+.sidebarTitle :hover{
+    background-color:#444;
+    
+    
     
 }
 
-.sidebarC p{
-   font-size: 20px;
+
+.sidebarTitle p{
+   font-size: 30px;}
     
+   .sidebarContent{
+    padding-top: 10px;
+
+   }
+  .sidebarTitle .toggleBtn{
+    cursor: pointer;
+
+   }
+
+   .sidebarItems.open .sidebarTitle .toggleBtn{
+    transform:rotate(180deg) ;
+    transition: transform.3s;
+    -webkit-transform:rotate(180deg) ;
+    -moz-transform:rotate(180deg) ;
+    -ms-transform:rotate(180deg) ;
+    -o-transform:rotate(180deg) ;
+    -webkit-transition: transform.3s;
+    -moz-transition: transform.3s;
+    -ms-transition: transform.3s;
+    -o-transition: transform.3s;
+}
+.sidebarContent{
+    padding-top: 10px;
+    height: 0;
+    overflow: hidden ;
+}
+
+.sidebarItems.open .sidebarContent{
+    height:auto;
+}
+
+/* new   */
+
+
+.genTitle{
+    border: 1px solid #fff;
+    display: flex;
+    padding: 10px 20px;
+    height: 45px;
+    justify-content: space-evenly;
+    cursor: pointer;
+
 }
 
 
+.contents{
+    display:block;
+    justify-content:center;
+    padding: 10px 50px;
+    border: 2px solid #fff;
+    background-color: red;
+}
+.hide{
+    display: none;
+}
