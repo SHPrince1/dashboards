@@ -1,6 +1,8 @@
 import logo from "./logo.svg";
 import "./App.css";
-import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Home from "./pages/home.jsx";
+import Reports from "./pages/reports";
 // css files
 
 // imported components
@@ -12,8 +14,12 @@ function App() {
       <div>
         <Router>
           <SideBar />
-          <Routes>
-            <Route path="/" />
+         
+            <Routes>
+              <Route path="/" exact element={<Home />} />
+              <Route path="/reports" element={<Reports />} />
+              
+          
           </Routes>
         </Router>
       </div>

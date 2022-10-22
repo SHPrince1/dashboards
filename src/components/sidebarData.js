@@ -19,7 +19,7 @@ export const SideBarData =[
         cName: "navText"
     },
     {
-        title: 'Products',
+        title: 'PRODUCTS',
         path: '/products',
         icon: <AiOutlineClose />,
         cName: "navText"
