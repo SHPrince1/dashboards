@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+/* CUSTOMS EVENTS */
+
+.pageContent{
+  margin-left:320px;
+  margin-top: 40px;
+  color:#000;
+
+}
+h1{
+  color:#000;
+}

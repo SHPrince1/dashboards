@@ -1,10 +1,10 @@
 import React from "react";
-
+import "../App.css";
 const Home = () => {
   return (
     <>
-      <div>
-        <h1 style={{color:"black"}}>HOME</h1>
+      <div className="pageContent">
+        <h1>HOME</h1>
       </div>
     </>
   );

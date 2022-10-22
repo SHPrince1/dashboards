@@ -1,13 +1,13 @@
 import React from "react";
-
-const Reports = () => {
+import "../App.css";
+const Products = () => {
   return (
     <>
       <div className="pageContent">
-        <h1>REPORTS</h1>
+        <h1>PRODUCTS</h1>
       </div>
     </>
   );
 };
 
-export default Reports;
+export default Products;

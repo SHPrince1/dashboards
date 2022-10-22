@@ -4,6 +4,8 @@ import { FaBars } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
 import {FcHome} from "react-icons/fc";
 import{GoReport} from "react-icons/go";
+import{MdProductionQuantityLimits, MdOutlineMessage, MdSupportAgent} from "react-icons/md";
+import{GiTeamIdea} from "react-icons/gi";
 
 export const SideBarData =[
     {
@@ -21,25 +23,25 @@ export const SideBarData =[
     {
         title: 'PRODUCTS',
         path: '/products',
-        icon: <AiOutlineClose />,
+        icon: <MdProductionQuantityLimits />,
         cName: "navText"
     },
     {
         title: 'Team',
         path: '/team',
-        icon: <AiOutlineClose />,
+        icon: <GiTeamIdea />,
         cName: "navText"
     },
     {
         title: 'Messages',
         path: '/messages',
-        icon: <AiOutlineClose />,
+        icon: <MdOutlineMessage />,
         cName: "navText"
     },
     {
         title: 'Support',
         path: '/support',
-        icon: <AiOutlineClose />,
+        icon: <MdSupportAgent />,
         cName: "navText"
     },
     
