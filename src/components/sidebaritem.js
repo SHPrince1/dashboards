@@ -22,6 +22,8 @@ const Sidebaritem = () => {
   }
 
   return (
+    <>
+    </>
     // <div className={open ? "SbItem.sidebarItems open" : "SbItem.sidebarItems"}>
     //   <div className={SbItem.sidebarTitle}>
     //     <span >
@@ -40,84 +42,84 @@ const Sidebaritem = () => {
 
     // </div>
 
-    <div className={SbItem.parentBox}>
-      <div className={SbItem.genBox}>
-        <div onClick={toggleOpen} className={SbItem.genTitle}>
-          {/* <AiFillSetting  size={30}/> */}
-          DASHBOARD
-          <IoIosArrowDropdownCircle size={30} />
-        </div>
+    // <div className={SbItem.parentBox}>
+    //   <div className={SbItem.genBox}>
+    //     <div onClick={toggleOpen} className={SbItem.genTitle}>
+    //       {/* <AiFillSetting  size={30}/> */}
+    //       DASHBOARD
+    //       <IoIosArrowDropdownCircle size={30} />
+    //     </div>
 
-        <div className={open ? SbItem.contents : SbItem.hide}>
-          <div>
-            <p>ICON</p>
-          </div>
-        </div>
-      </div>
-      <div className={SbItem.genBox}>
-        <div className={SbItem.genTitle}>
-          {/* <AiFillSetting  size={30}/> */}
-          CUSTOMERS
-          <IoIosArrowDropdownCircle size={30} />
-        </div>
+    //     <div className={open ? SbItem.contents : SbItem.hide}>
+    //       <div>
+    //         <p>ICON</p>
+    //       </div>
+    //     </div>
+    //   </div>
+    //   <div className={SbItem.genBox}>
+    //     <div className={SbItem.genTitle}>
+    //       {/* <AiFillSetting  size={30}/> */}
+    //       CUSTOMERS
+    //       <IoIosArrowDropdownCircle size={30} />
+    //     </div>
 
-        <div className={SbItem.content}></div>
-      </div>
-      <div className={SbItem.genBox}>
-        <div className={SbItem.genTitle}>
-          {/* <AiFillSetting  size={30}/> */}
-          CHATS
-          <IoIosArrowDropdownCircle size={30} />
-        </div>
+    //     <div className={SbItem.content}></div>
+    //   </div>
+    //   <div className={SbItem.genBox}>
+    //     <div className={SbItem.genTitle}>
+    //       {/* <AiFillSetting  size={30}/> */}
+    //       CHATS
+    //       <IoIosArrowDropdownCircle size={30} />
+    //     </div>
 
-        <div className={SbItem.content}></div>
-      </div>
-      <div className={SbItem.genBox}>
-        <div className={SbItem.genTitle}>
-          {/* <AiFillSetting  size={30}/> */}
-          PRODUCTS
-          <IoIosArrowDropdownCircle size={30} />
-        </div>
+    //     <div className={SbItem.content}></div>
+    //   </div>
+    //   <div className={SbItem.genBox}>
+    //     <div className={SbItem.genTitle}>
+    //       {/* <AiFillSetting  size={30}/> */}
+    //       PRODUCTS
+    //       <IoIosArrowDropdownCircle size={30} />
+    //     </div>
 
-        <div className={SbItem.content}></div>
-      </div>
-      <div className={SbItem.genBox}>
-        <div className={SbItem.genTitle}>
-          {/* <AiFillSetting  size={30}/> */}
-          ORDERS
-          <IoIosArrowDropdownCircle size={30} />
-        </div>
+    //     <div className={SbItem.content}></div>
+    //   </div>
+    //   <div className={SbItem.genBox}>
+    //     <div className={SbItem.genTitle}>
+    //       {/* <AiFillSetting  size={30}/> */}
+    //       ORDERS
+    //       <IoIosArrowDropdownCircle size={30} />
+    //     </div>
 
-        <div className={SbItem.content}></div>
-      </div>
-      <div className={SbItem.genBox}>
-        <div className={SbItem.genTitle}>
-          {/* <AiFillSetting  size={30}/> */}
-          SOURCES
-          <IoIosArrowDropdownCircle size={30} />
-        </div>
+    //     <div className={SbItem.content}></div>
+    //   </div>
+    //   <div className={SbItem.genBox}>
+    //     <div className={SbItem.genTitle}>
+    //       {/* <AiFillSetting  size={30}/> */}
+    //       SOURCES
+    //       <IoIosArrowDropdownCircle size={30} />
+    //     </div>
 
-        <div className={SbItem.content}></div>
-      </div>
-      <div className={SbItem.genBox}>
-        <div className={SbItem.genTitle}>
-          {/* <AiFillSetting  size={30}/> */}
-          STORE
-          <IoIosArrowDropdownCircle size={30} />
-        </div>
+    //     <div className={SbItem.content}></div>
+    //   </div>
+    //   <div className={SbItem.genBox}>
+    //     <div className={SbItem.genTitle}>
+    //       {/* <AiFillSetting  size={30}/> */}
+    //       STORE
+    //       <IoIosArrowDropdownCircle size={30} />
+    //     </div>
 
-        <div className={SbItem.content}></div>
-      </div>
-      <div className={SbItem.genBox}>
-        <div className={SbItem.genTitle}>
-          {/* <AiFillSetting  size={30}/> */}
-          SETTINGS
-          <IoIosArrowDropdownCircle size={30} />
-        </div>
+    //     <div className={SbItem.content}></div>
+    //   </div>
+    //   <div className={SbItem.genBox}>
+    //     <div className={SbItem.genTitle}>
+    //       {/* <AiFillSetting  size={30}/> */}
+    //       SETTINGS
+    //       <IoIosArrowDropdownCircle size={30} />
+    //     </div>
 
-        <div className={SbItem.content}></div>
-      </div>
-    </div>
+    //     <div className={SbItem.content}></div>
+    //   </div>
+    // </div>
   );
 };
 
