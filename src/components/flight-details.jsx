@@ -1,5 +1,7 @@
 import React from "react";
-import Hstyle from ".././styles/home.module.css";
+import Hstyle from ".././styles/flight.module.css";
+import LogoImg from "../images/log.png"; 
+import LayerImg from "../images/layer.png"; 
 
 const FlightDetails = () => {
   return (
@@ -9,18 +11,16 @@ const FlightDetails = () => {
           <div className={Hstyle.FlightcolBox}>
             <div className={Hstyle.titleImage}>
               <p>Total Flight Bookng</p>
-              <img src="log.png" />
+              <img src={LogoImg}  alt ="Image"/>
             </div>
 
             <div className={Hstyle.price}>5, 400</div>
             <div className={Hstyle.textArrow}>
-              <img src="log.png" />
-              <p>80% incrrease since last month</p>
+            <img src={LayerImg}  alt ="Image"/>
+              <p><span style={{color:"#FCA62B; font-weight: bold;"}}>80%</span> incrrease since last month</p>
             </div>
           </div>
-          {/* <div className={Hstyle.FlightcolBox}></div>
-          <div className={Hstyle.FlightcolBox}></div>
-          <div className={Hstyle.FlightcolBox}></div> */}
+         
         </div>
       </div>
     </div>

@@ -1,0 +1,51 @@
+.dRow{
+    /* border: 1px solid black; */
+}
+
+.dCol{
+    width: 478px;
+    height: 470px;
+    background-color: #fff;
+    box-shadow: -2px 3px 7px 1px #0095FF;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+.bartext{
+    padding: 40px;
+}
+.imgBox{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    margin-top: -4rem;
+}
+.Elipse{
+    margin-top: 3rem;
+    justify-content: center;
+}
+.box{
+    width:20px;
+    height: 20px;
+    background-color: #0043A4;
+}
+.box2{
+    width:20px;
+    height: 20px;
+    background-color: #FCA62B;
+}
+
+.bookedR{
+    width: 200px;
+    height: 162px;
+    /* margin-top: -3rem; */
+}
+.bookedR p{
+    font-size: 10px;
+
+}
+.bookF{
+    display: flex;
+    gap: 15px;
+    margin-left: 3rem;
+    margin-top: 8px;
+}

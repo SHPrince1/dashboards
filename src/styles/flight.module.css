@@ -12,10 +12,12 @@
     gap: 16px;
 }
 .FlightcolBox{
-    border:1px solid #000;
+    /* border:1px solid #000; */
     width: 15rem;
     height: 15rem;
     padding: auto;
+    background-color: #fff;
+    box-shadow: -2px 3px 7px 1px #0095FF;
 
 }
 .titleImage{
@@ -41,6 +43,7 @@
     padding: 0;
 }
 .textArrow p{
-    font-size: 10px;
+    color: #707070;
+    font-size: 11px;
     width: 110px;
 }

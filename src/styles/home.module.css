@@ -1,3 +1,6 @@
+body{
+    background-color: #edf8ff;
+}
 .sbParentBox{
     /* background-color: red; */
    
@@ -12,7 +15,8 @@
     gap: 16px;
 }
 .FlightcolBox{
-    border:1px solid #000;
+    /* border:1px solid #000; */
+    /* background-color:#fff; */
     width: 15rem;
     height: 15rem;
     padding: auto;
@@ -43,4 +47,11 @@
 .textArrow p{
     font-size: 10px;
     width: 110px;
+}
+.barchartrowBox{
+    display: flex;
+    /* border: 1px solid black; */
+}
+.bchart{
+    display: flex;
 }
