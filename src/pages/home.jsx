@@ -3,6 +3,7 @@ import "../App.css";
 import Hstyle from ".././styles/home.module.css";
 import FlightDetails from "../components/flight-details";
 import Barchart from "../components/barchart";
+import Barcharts from "../components/barcharts";
 import PaymentOverview from "../components/payment-overview";
 const Home = () => {
   return (
@@ -28,6 +29,9 @@ const Home = () => {
         <div className={Hstyle.bchart}>
           <Barchart />
           <PaymentOverview />
+        </div>
+        <div className={Hstyle.bchart}>
+        <Barcharts />
         </div>
       </div>
     </>

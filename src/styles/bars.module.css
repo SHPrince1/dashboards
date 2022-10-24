@@ -1,0 +1,19 @@
+.barsBox{
+    /* background-color: aqua; */
+    margin-left: 4rem;
+    margin-top:7rem;
+    margin-bottom:7rem;
+    
+}
+.pageContents{
+    margin-top:2rem;
+    background-color:#fff;
+    margin-left: -19px;
+    width: 1150px;
+    height: 750px;
+    margin-bottom: 3rem;
+}
+    .imgCon{
+        margin-top: 2rem;
+       
+    }
